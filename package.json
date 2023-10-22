@@ -1,0 +1,31 @@
+{
+  "name": "express-webpack-example",
+  "version": "0.0.1",
+  "description": "Repo showing how to bundle an express.js application to a bundle with webpack",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dist-start": "node dist/app.js",
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "dev": "webpack --config build/webpack.dev.conf.js"
+  },
+  "keywords": [
+    "node.js",
+    "webpack",
+    "expressjs",
+    "javascript",
+    "cicd"
+  ],
+  "author": "1ProCrafter",
+  "license": "MIT",
+  "devDependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.18.2",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
